@@ -4,7 +4,7 @@
 	<instantiate from="src/app_package/Contract.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/${className}Contract.java" />
 	<instantiate from="src/app_package/MvpView.java.ftl"
-                   to="${escapeXmlAttribute(srcOut)}/${className}Activity.java" />
+                   to="${escapeXmlAttribute(srcOut)}/${className}Fragment.java" />
 	<instantiate from="src/app_package/Presenter.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/${className}Presenter.java" />
 
