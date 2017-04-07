@@ -13,7 +13,7 @@ Navigate to the location of the templates folder and pull this repo there :
 On MacOS, this folder was the following:
 
 ```
-/Applications/Android Studio.app/Contents/plugins/android/lib/templates/other/
+/Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/other/
 ```
 
 
