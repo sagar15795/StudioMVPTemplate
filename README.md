@@ -1,8 +1,8 @@
-#StudioMVPTemplate
+# StudioMVPTemplate
 
 Template for Android Studio, to create a set of files for MVP functionality for both v7 appcompatactivity and v4 fragment.
 
-#How to use it 
+# How to use it 
 
 Navigate to the location of the templates folder and pull this repo there :
  
