@@ -11,7 +11,12 @@
 		constraints="class|unique|nonempty"
 		default="MvpFunction"
 		help="The name of the functionality that requires MVP views"/>
-
+	  <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        default="com.mycompany.myapp" />
 	<globals file="globals.xml.ftl" />
     <execute file="recipe.xml.ftl" />
 
