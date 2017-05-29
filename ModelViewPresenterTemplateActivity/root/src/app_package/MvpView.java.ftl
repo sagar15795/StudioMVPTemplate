@@ -23,7 +23,12 @@ public class ${className}Activity extends AppCompatActivity implements ${classNa
 
         m${className}Presenter = ${className}Presenter.get${className}Presenter(DataManager.getDataManger());
         m${className}Presenter.attachView(this);
-
-
     }	
+
+   @Override
+    protected void onDestroy() {
+        super.onDestroy();
+         m${className}Presenter.detachView();
+    }
+
 }
